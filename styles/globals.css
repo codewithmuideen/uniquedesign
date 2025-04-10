@@ -1,0 +1,19 @@
+/* Replace DM Sans with Montserrat */
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@100..900&display=swap");
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  font-family: "Montserrat", sans-serif;
+  scroll-behavior: smooth;
+  @apply max-w-[90%] w-[1000px] mx-auto;
+}
+/* Inside your global or component-specific CSS file */
+@media (max-width: 400px) {
+  .contact-link {
+    font-size: 1rem; /* smaller font size on mobile */
+    padding: 1rem 1rem; /* reduced padding */
+  }
+}
