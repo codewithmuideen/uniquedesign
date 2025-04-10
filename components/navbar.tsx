@@ -97,7 +97,7 @@ const Navbar = () => {
           style={{ fontFamily: 'Montserrat' }}
           href="#contact"
           className="text-2xl text-zinc-700 hover:text-[#ff5e1a] font-medium"
-          onClick={closeMenu} // Close menu when link is clicked
+          onClick={closeMenu} // Close menu when link is click
         >
           Contact
         </Link>
