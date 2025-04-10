@@ -11,13 +11,13 @@ const Hero = () => {
     <section className="grid grid-cols-1 lg:grid-cols-[2fr_1fr] gap-4 mb-4">
       <div className="flex flex-col justify-between bg-[url('/assets/gradient-bg.jpg')] bg-cover bg-zinc-200 h-auto rounded-3xl p-6 sm:p-8 md:p-12 overflow-hidden">
         <h1 className="text-2xl sm:text-3xl md:text-4xl font-semibold leading-snug break-words">
-          Hello, I'm a Product Designer with 4 years of experience.
+          Hello, I&apos;m a Product Designer with 4 years of experience.
         </h1>
         <p className="mt-4 text-sm sm:text-base font-medium text-gray-800 break-words">
           I am deeply passionate about the transformative power of design when
           used to create positive change. I find immense joy in crafting
           user-centric, delightful and inherently human experiences that not
-          only address users’ needs but also enrich their lives. My work is
+          only address users needs but also enrich their lives. My work is
           rooted in a commitment to inclusivity, accessibility, and
           sustainability ensuring that every solution is meaningful impactful,
           and designed for all.
